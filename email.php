@@ -1,4 +1,7 @@
 <?php
-$API_KEY = "5250059854:AAF-04PNzIFWHi-gCSIPfBCwo9tQ5I0UT50";//YOUTOKEN
-$admin = "5269303176" ; //YOURID
+
+$alexhost = 'frpreza01@gmail.com'; // Email Anda
+
+$sender ='From: SPIN ML <admin@alexhost.my.id>'; // Sender
+
 ?>
