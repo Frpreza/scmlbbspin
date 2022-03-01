@@ -1,0 +1,732 @@
+body {
+  margin: 0px;
+  color: #fff;
+  background-color: #4b28cc;
+  font-family: 'Oxygen', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 23px;
+  margin: 30px 0px 10px;
+  letter-spacing: 1.3px;
+}
+
+h1 {
+  margin: 10px 0px 20px;
+  font-size: 30px;
+  letter-spacing: .3px;
+}
+
+#container {
+  background: url(https://cdn.jsdelivr.net/gh/AlexHostX/mlbb@main/spindm/nana.jpg) no-repeat center;
+  background-size: cover;
+}
+
+main {
+  max-width: 411px;
+  width: 100%;
+}
+
+.content {
+  background-color: #4b28cc00;
+  background-image: linear-gradient(180deg, #4b28ccb8 0%, #4b28cc 50%, #4b28cc 100%);
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+}
+
+.topalex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.topalex img {
+  max-width: 35px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(2px 4px 6px #4b28cc);
+  border-radius: 3px;
+}
+
+.spinalexml {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+alex {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.boxspinml {
+  position: relative;
+  text-align: center;
+}
+
+.centerml {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  transform: rotate(330deg);
+}
+
+.alexspin {
+  text-align: center;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.alexspin img {
+  max-width: 360px;
+}
+
+.itemspin img {
+  width: 90px;
+}
+
+.itemcol1 {
+  position: absolute;
+  top: 25px;
+  left: 165px;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+
+.itemcol2 {
+  position: absolute;
+  top: 90px;
+  right: 60px;
+  z-index: 1;
+  transform: rotate(245deg);
+}
+
+.itemcol3 {
+  position: absolute;
+  top: 195px;
+  right: 70px;
+  z-index: 1;
+  transform: rotate(299deg);
+}
+
+.itemcol4 {
+  position: absolute;
+  bottom: 25px;
+  left: 160px;
+  z-index: 1;
+  transform: rotate(0deg);
+}
+
+.itemcol5 {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  z-index: 1;
+  transform: rotate(60deg);
+}
+
+.itemcol6 {
+  position: absolute;
+  top: 70px;
+  left: 65px;
+  z-index: 1;
+  transform: rotate(120deg);
+}
+
+.buttonspin {
+  position: absolute;
+  text-align: center;
+  top: 26%;
+  left: 34%;
+}
+
+.buttonspin img {
+  max-width: 130px;
+}
+
+.guestalexml {
+  width: 100%;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+ariandi {
+  text-align: center;
+  display: block;
+}
+
+ariandi button {
+  background-color: #ffb00a;
+  background-image: linear-gradient(90deg, #ffb00a 0%, #f3540f 100%);
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.invitealex {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+}
+
+.topinvite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topinvite p {
+  margin-top: 0px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.topinvite label {
+  background: #fff;
+  color: #4b28cc;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+.bottinvite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bottinvite p {
+  margin: 0px;
+}
+
+.salinlink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.salinlink input {
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-family: 'Oxygen', sans-serif;
+  color: #0a0566;
+  white-space: nowrap;
+  width: 85%;
+}
+
+.salinlink label {
+  background: #4b28cc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.guestalexml a {
+  margin-top: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+#invitestatus {
+  font-size: 15px;
+  color: #f00;
+  background: #fff;
+  margin-top: 10px;
+  padding: 0px 10px;
+  border-radius: 25px;
+  display: none;
+}
+
+.rulesalexml {
+  background: #3a21a3;
+  margin-top: 3em;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.rulesfix {
+  padding: 20px;
+  text-align: center;
+}
+
+.rulesfix h3 {
+  margin: 0px 0px 10px;
+  font-size: 19px;
+}
+
+.contentrules {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contentrules p {
+  margin-block: 10px 5px;
+  font-size: 15px;
+}
+
+.mutermulualex {
+  animation-name: spin;
+  animation-duration: 300ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.disabled {
+  filter: contrast(0.1) !important;
+}
+
+popup {
+  display: none;
+}
+
+#popupalex {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(50 50 50 / 20%);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.boxconfirm {
+  background: #fff;
+  color: #34217a;
+  max-width: 330px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.topgift {
+  text-align: center;
+}
+
+.topgift h4 {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.topgift h4 i {
+  color: #ff5722;
+}
+
+.topgift p {
+  margin: 5px 0px 10px;
+}
+
+.topgift img {
+  width: 100px;
+  padding: 5px;
+  background-color: #868ac5;
+  background-image: linear-gradient(135deg, #868ac5 0%, #3e2cb9 100%);
+  border-radius: 20px;
+}
+
+.bottgift {
+  margin-top: 15px;
+}
+
+.inputid {
+  background: rgb(68 58 176 / 40%);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.inputid p {
+  margin: .8em;
+  font-size: 17px;
+  color: #0d0332;
+  font-weight: 600;
+}
+
+.boxinput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.boxinput input {
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 8px 5px;
+  color: #0d0332;
+  outline: none;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#playid {
+  width: 55%;
+}
+
+#zoneid {
+  width: 30%;
+}
+
+.inputid button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #812ae2;
+  background-image: linear-gradient(135deg, #812ae2 0%, #4402f3 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 45px;
+  border: none;
+  border-radius: 25px;
+  letter-spacing: 1.5px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.warn {
+  margin-top: 5px;
+  height: 20px;
+}
+
+.warn span {
+  display: none;
+  font-size: 15px;
+}
+
+.alex-login {
+  background: #000000c4;
+  z-index: 9;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.welcomealexmltf {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(50 50 50 / 20%);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.welcomealexmltf p {
+  background: #fff;
+  color: #0a051a;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 25px;
+  filter: drop-shadow(2px 5px 9px #0a051a);
+  border: 3px double;
+  border-color: #6637ff;
+}
+
+.pilihan-login {
+  background: rgba(18, 39, 70, .94);
+  position: relative;
+  display: inline-block;
+  width: 90vw;
+  max-width: 675px;
+  min-height: 80px;
+  border: 1px solid #4c87d4;
+  font-size: 12px;
+  color: #98e8ff;
+  margin: 44% auto;
+  border-radius: 5px;
+}
+
+.ucapan-login {
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 0 30px;
+  font-family: Arial;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.btnlogalex {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 77%;
+  height: 50px;
+  line-height: 20px;
+  background: url(https://cdn.jsdelivr.net/gh/AlexHostX/all.img@main/btn-ml-log.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+}
+
+.formariandi {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.boxformalexmltf {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.textformalexmltf {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: .4px;
+}
+
+.formalexmltf {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+
+.itemformmltf {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.itemformmltf label {
+  font-size: 14px;
+}
+
+.itemformmltf input {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px double;
+  border-color: #1c0e50;
+  outline: none;
+  box-shadow: 3px 3px 0px 1px #4b28cc;
+  font-size: 16px;
+  color: #1c0e50;
+}
+
+.itemformmltf select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px double;
+  border-color: #1c0e50;
+  outline: none;
+  box-shadow: 3px 3px 0px 1px #4b28cc;
+  font-size: 16px;
+  color: #1c0e50;
+}
+
+.inputtriplealexmltf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonformalexmlmt {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buttonformalexmlmt button {
+  background-color: #ffb00a;
+  background-image: linear-gradient(90deg, #ffb00a 0%, #f3540f 100%);
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.completedml {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.sukseslexml {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  max-width: 85%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2em;
+}
+
+.titlesukses {
+  text-align: center;
+}
+
+.titlesukses h3 {
+  margin: 0px !important;
+}
+
+.textsukses {
+  margin-bottom: 30px;
+}
+
+.textsukses p {
+  margin: 20px 0px 8px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.textsukses p i {
+  color: #ff5722;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 360px) {
+  .itemcol1 {
+    left: 145px;
+  }
+
+  .itemcol2 {
+    top: 75px;
+    right: 30px;
+  }
+
+  .itemcol3 {
+    top: 195px;
+    right: 45px;
+  }
+
+  .itemcol4 {
+    bottom: 35px;
+    left: 135px;
+  }
+
+  .itemcol5 {
+    top: 190px;
+    left: 35px;
+  }
+
+  .itemcol6 {
+    top: 75px;
+    left: 35px;
+  }
+
+  .buttonspin {
+    left: 32%;
+  }
+
+  .boxconfirm {
+    max-width: 300px;
+  }
+}
